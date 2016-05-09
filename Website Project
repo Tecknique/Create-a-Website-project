@@ -1,0 +1,191 @@
+'''HTML File'''
+
+<!DOCTYPE html>
+<head>
+	<title>James's HTML and CSS Notes</title>
+	<link rel="stylesheet" href="james-style.css">
+</head>
+<body>
+	<div class="TOC">
+		<h1>Section 1 Notes: Table of Contents</h1>
+		<ol>
+			<li><a href="#lesson1">World Wide Web</a>
+				<ul>
+				<!-- ul ads unnumbered specification to list-->
+					<li><a href="#lesson1-1">WWW</a></li>
+					<li><a href="#lesson1-2">HTML</a></li>
+					<li><a href="#lesson1-3">Tags and Elements</a></li>
+					<li><a href="#lesson1-4">Computers are Stupid</a></li>
+					<li><a href="#lesson1-5">Inline and block elements</a></li>
+				</ul>
+			</li>
+			<li class="TOC.LESSON"><a href="#Lesson2">Section 2 Notes: Structured Documents with HTML</a>
+				<ul>
+					<li><a href="#lesson2-1">Developer Tools</a></li>
+					<li><a href="#lesson2-2">HTML's structure</a></li>
+					<li><a href="#lesson2-3">Format and Boxes</a></li>
+					<li><a href="#lesson2-4">Text Editors</a></li>
+				</ul>
+			</li>
+			<li class="TOC.LESSON"><a href="#Lesson3">Section 3 Notes: CSS Style in HTML</a>
+				<ul>
+					<li><a href="#lesson3-1">CSS vs HTML</a></li>
+					<li><a href="#lesson3-2">Avoiding Repetition</a></li>
+				</ul>
+			</li>
+		</ol>
+	</div>
+	<h1>Class Highlights</h1>
+	<div class="cat">
+		<img src="http://lovemeow.com/wp-content/uploads/2013/03/408564_10151280198391655_1770805469_n.jpg" alt="cat" style="width:400px;height:352px;">
+	</div>
+
+	<div class="lesson">
+		<h2 id="lesson1">Section 1 Notes: World Wide Web</h2>
+		<div class="information" id="lesson1-1">
+			<div class="information-title">
+				WWW
+			</div>
+			<div class="information-description">
+				<p>
+					world wide web - information space where web resources are identified by URLs, which are accessed via the internet. The web pages are made of text documents that are formatted using HTML (hyper text markup language)
+				</p>
+				<p>
+					<a href="https://www.udacity.com/course/viewer#!/c-nd000/l-3873828673/e-48230539/m-48742046">This video</a> does a good job of explaining this.
+				</p>
+			</div>
+		</div>
+		<div class="information" id="lesson1-2">
+			<div class="information-title">
+				HTML
+			</div>
+			<div class="information-description">
+				<p>
+					<em>HTML</em>, the main type of document on the web, which glues everything together. The web uses HTTP <em>(Hypertext Transfer Protocol)</em> in the browser to communcate to the servers.
+				</p>
+				<p>
+					<a href="https://www.udacity.com/course/viewer#!/c-nd000/l-3873828673/m-48724340">This video</a> does a good job in introducing HTML.
+				</p>
+			</div>
+		</div>
+		<div class="information" id="lesson1-3">
+			<div class="information-title">
+				Tags and Elements
+			</div>
+			<div class="information-description">
+				<p>
+					Tags are structured with a less then simbol, the name of the tag, the greater than symbol, the contents, the less than symbol, a backslash, the name of the tag again, then the greater than symbol. The whole tag from the first less than symbol to the last greater than symbol is referred to as the <em>Element</em>.
+				</p>
+				<p>
+					<a href="https://www.udacity.com/course/viewer#!/c-nd000/l-3873828673/m-48723444">This video</a> does a good job in explaining the basics of Tags and Elements.
+				</p>
+			</div>
+		</div>
+		<div class="information" id="lesson1-4">
+			<div class="information-title">
+				Computers are Stupid
+			</div>
+			<div class="information-description">
+				<p>
+					Computers can only understand what is fed to them by a human. Humans might understand small typoes and still understand the whole picture, but computers will crash or do terrible things if small problems are present; such as: no end tag, a spelling error, and other easily correctable mistakes.
+				</p>
+			</div>
+		</div>
+		<div class="information" id="lesson1-5">
+			<div class="information-title">
+				Inline and block elements
+			</div>
+			<div class="information-description">
+				<p>
+					The difference between inline/block is that inline tags do not create a box around the tag, so the height and width of the tagged area cannot be customized. The block tag creates a tag where the box size can be customized.
+				</p>
+				<p>
+					<a href="https://www.udacity.com/course/viewer#!/c-nd000/l-3873828673/m-48723438">This video</a> does a good job in explaining the difference between inline and block.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="lesson">
+		<h2 id="lesson2">Section 2 Notes: Structured Documents with HTML</h2>
+		<div class="information" id="lesson2-1">
+			<div class="information-title">
+				Developer Tools
+			</div>
+			<div class="information-description">
+				<p>
+					Developer tools, DevTools for short, are a set of web tools that are built into browsers to provide web developers insight and access into the internals of their web application.
+				</p>
+				<p>
+					<a href="https://plus.google.com/events/clkm4umamn5he1bvna6dptqsvco?authkey=CO7I8p62gt3y9gE">This Video</a> does a good job in explaining DevTools in detail
+				</p>
+			</div>
+		</div>
+		<div class="information" id="lesson2-2">
+			<div class="information-title">
+				HTML Structures
+			</div>
+			<div class="information-description">
+				<p>
+					HTML structure is like a branching structure diagram. Elements encase other elements as if each element branches off into other elements.
+				</p>
+				<p>
+					This is very difficult to put into words so please watch <a href="https://www.udacity.com/course/viewer#!/c-nd000/l-4137489485/e-2771378561/m-2771378562">This Video</a> for greater understanding on this topic.
+				</p>
+			</div>
+		</div>
+		<div class="information" id="lesson2-3">
+			<div class="information-title">
+				Format and Boxes
+			</div>
+			<div class="information-description">
+				<p>
+					Every element on a webpage is enclosed in a box. Even if the image is a circle, it is enclosed in a box. The box can act as a border, which its size can be made customized and formatted.
+				</p>
+				<p>
+					<a href="https://www.udacity.com/course/viewer#!/c-nd000/l-4137489485/e-2608808598/m-2599508886">This video</a> does a good job in explaining it in more detail.
+				</p>
+			</div>
+		</div>
+		<div class="information" id="lesson2-4">
+			<div class="information-title">
+				Text Editors
+			</div>
+			<div class="information-description">
+				<p>
+					There are several text editing programs that programers use to write HTML, CSS, Javascript, ect. Each of them have their own advantages and disadvantages. When writing these notes, I am using Sublime Text 2.
+				</p>
+				<p>
+					<a href="https://www.udacity.com/course/viewer#!/c-nd000/l-4137489485/m-3521349459">This Page</a> helps guide you to which text editor might be right for you.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="lesson">
+		<h2 id="lesson3">Section 3 Notes: CSS Style in HTML</h2>
+		<div class="information" id="lesson3-1">
+			<div class="information-title">
+				CSS vs HTML
+			</div>
+			<div class="information-description">
+				<p>
+					While HTML provides the structure of the web document, CSS provides the style. To add style, you have the HTML document look for a specific CSS style document that corresponds with the HTML document.
+				</p>
+				<p>
+					<a href="https://www.udacity.com/course/viewer#!/c-nd000/l-4131369051/e-3614428682/m-2603798584">This Video</a> does a good job in explaining how the relationship between HTML and CSS works.
+				</p>
+			</div>
+		</div>
+		<div class="information" id="lesson3-2">
+			<div class="information-title">
+				Avoiding Repetition
+			</div>
+			<div class="information-description">
+				<p>
+					To avoid repetition in coding, it is important to create a CSS file seperate of the HTML file for all the style changes. This makes it much easier to review code, and make changes in a timely manor. It is inefficient to have to skim the HTML file for specific sections that need to be edited. It also help avoid confusion from syntactic errors by avoiding copy-paste errors and makes it easier to keep the style more uniform.
+				</p>
+			</div>
+		</div>
+	</div> 
+</body>
+</html>
+
