@@ -1,0 +1,66 @@
+'''CSS file'''
+
+body {
+	padding: 0px 10px;
+	font-family: Calibri;
+	max-width: 1400px;
+	margin: 0 auto; 
+	font-size: 1.6em;
+}                 
+
+h1 {
+	text-align: left;
+	color: black;
+	font-family: Times;
+}
+
+p {
+	margin: 5px 0;
+}
+
+ul {
+	list-style-type: hiragana; 
+}
+
+li {
+	font-size: 22px;
+	line-height: 40px; 
+}
+
+.lesson {
+	background-color: gray;
+	border-radius: 20px;
+	color: white;
+	padding: 10px;
+	margin: 10px auto;
+}
+
+h2 {
+	margin: 10px;
+}
+
+.information {
+	background-color: yellow;
+	padding: 4px;
+	margin: 10px;
+	border-radius: 4px;
+	color: black;
+}
+
+.information-title {
+	font-size: 28px;
+	margin: 8px;
+	text-align: center;
+	color: red;
+}
+
+.information-description {
+	font-weight: lighter;
+	margin: 6px;
+}
+
+
+.cat {
+	text-align: center;
+}
+
